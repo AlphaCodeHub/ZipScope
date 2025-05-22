@@ -25,6 +25,7 @@
     <meta name="twitter:description" content="View, explore, and preview ZIP files instantly in your browser. No download required. Fast, secure, and easy to use ZIP viewer.">
     <meta name="twitter:image" content="https://zipscope.netlify.app/og-image.png">
     <link rel="canonical" href="https://zipscope.netlify.app">
+      <meta http-equiv="Cache-control" content="public, max-age=3600"> 
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -220,5 +221,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <!-- Custom JS -->
     <script src="script.js"></script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "ZipScope",
+  "url": "https://zipscope.netlify.app/",
+  "image": "https://zipscope.netlify.app/og-image.png",
+  "description": "Free online ZIP file explorer. View, explore, and preview ZIP files instantly in your browser. No download required. Fast, secure, and easy to use ZIP viewer.",
+  "softwareHelp": {
+    "@type": "WebPage",
+    "url": "https://zipscope.netlify.app/#helpModal",
+    "name": "How to Use ZipScope"
+  },
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Web",
+  "browserRequirements": "Requires HTML5 and JavaScript enabled browser."
+}
+</script>
 </body>
 </html> 
